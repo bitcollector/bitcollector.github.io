@@ -1,16 +1,14 @@
 
 
-var config = {cd untitled-dice
-npm install
-python -m SimpleHTTPServer 5000}
+var config = {
             
   // - Your app's id on moneypot.com
-  app_id: 18,
+  app_id: 18,2870
   // - Displayed in the navbar
   app_name: 'Bitcollectors',
   // - For your faucet to work, you must register your site at Recaptcha
   // - https://www.google.com/recaptcha/intro/index.html
-  recaptcha_sitekey: 
+  recaptcha_sitekey: 6LcD-yIUAAAAAB0dUB0NrSCD77h-026QatrFs9r4
   redirect_uri: 'https://bitcollectors.github.io',
   mp_browser_uri: 'https://www.moneypot.com',
   mp_api_uri: 'https://api.moneypot.com',
@@ -19,7 +17,7 @@ python -m SimpleHTTPServer 5000}
   debug: isRunningLocally(),
   // - Set this to true if you want users that come to http:// to be redirected
   //   to https://
-  force_https_redirect: !isRunningLocally(),
+  force_https_redirect: !isRunningLocally(1%),
   // - Configure the house edge (default is 1%)
   //   Must be between 0.0 (0%) and 1.0 (100%)
   house_edge: 0.01,
