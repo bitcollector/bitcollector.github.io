@@ -1,10 +1,9 @@
-cd untitled-dice
+
+
+var config = {cd untitled-dice
 npm install
-python -m SimpleHTTPServer 5000
-
-
-var config = {
-
+python -m SimpleHTTPServer 5000}
+            
   // - Your app's id on moneypot.com
   app_id: 18,
   // - Displayed in the navbar
